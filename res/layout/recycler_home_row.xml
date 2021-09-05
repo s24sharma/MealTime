@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/l1content">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="110dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/imgImage"
+        android:layout_marginLeft="5dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RestaurantName"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/txtResName"
+        android:layout_toRightOf="@+id/imgImage"
+        android:layout_marginLeft="4dp"/>
+
+    <ImageView
+        android:id="@+id/imgFav"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_favorite_border_black_24dp"
+        android:layout_toRightOf="@+id/txtResName"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="0dp"
+        />
+
+    <TextView
+        android:id="@+id/txtResPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtResName"
+        android:text="Rs 299"
+        android:padding="10dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/txtResRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtResPrice"
+        android:layout_marginTop="105dp"
+        android:padding="10dp"
+        android:textColor="#ffd700"
+        android:text="4.5"
+        android:layout_marginLeft="100dp"/>
+
+
+</RelativeLayout>

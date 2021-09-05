@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sasha.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mealicon"
+        android:label="MealTime"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/mealicon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".adapterfiles.CartAdapter"></activity>
+        <activity android:name=".adapterfiles.HistoryRecyclerAdapter" />
+        <activity android:name=".activities.LastActivity" />
+        <activity android:name=".activities.CartActivity" />
+        <activity android:name=".activities.RestaurantDetail" />
+        <activity android:name=".activities.ForgotPasswordActivity2" />
+        <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:label="Forgot Password" />
+        <activity
+            android:name=".activities.NavigationActivity"
+            android:label="Home" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:label="Enter Details" />
+        <activity android:name=".activities.LoginActivity2" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

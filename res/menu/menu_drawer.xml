@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home"
+    android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp">
+
+    </item>
+
+    <item
+        android:id="@+id/Profile"
+        android:title="My Profile"
+        android:icon="@drawable/ic_assignment_ind_black_24dp"></item>
+
+    <item
+        android:id="@+id/Favourite"
+        android:title="Favourites"
+        android:icon="@drawable/ic_favorite_black_24dp"></item>
+
+    <item
+        android:id="@+id/Order"
+        android:title="Order History"
+        android:icon="@drawable/ic_history_black_24dp"
+        ></item>
+
+    <item
+        android:id="@+id/Faq"
+        android:title="FAQs"
+        android:icon="@drawable/ic_question_answer_black_24dp"></item>
+
+    <item
+        android:id="@+id/Logout"
+        android:title="LogOut"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"></item>
+
+
+</menu>
